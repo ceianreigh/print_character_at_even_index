@@ -12,5 +12,6 @@ print("Original string is", string)
 print("Printing only the even index characters")
 
 # write a for loop to iterate through the string
-
-# print the characters at even index numbers
+for i in range(1, len(string), 2):
+    # print the characters at even index numbers
+    print(string[i])
