@@ -3,10 +3,13 @@
 # pseudocode
 
 # accept a string from the user
+string = input("Enter a word: ")
 
 # print the string
+print("Original string is", string)
 
 # write a message printing only the even index characters
+print("Printing only the even index characters")
 
 # write a for loop to iterate through the string
 
